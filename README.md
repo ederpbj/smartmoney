@@ -1,0 +1,2 @@
+# smartmoney
+Aplicação react-native
