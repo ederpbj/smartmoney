@@ -13,4 +13,4 @@ Descrição | Comando
 --------- | ------
 Git Clonar | `git clone https://github.com/ederpbj/smartmoney.git`
 Iniciar projeto react-native|`npx react-native init SosCidadao`
-Testar|`react-native run-androi`
+Testar|`react-native run-android`
