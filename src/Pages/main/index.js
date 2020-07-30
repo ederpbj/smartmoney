@@ -7,6 +7,7 @@ const Main = () => (
   </View>
 );
 
+// eslint-disable-next-line linebreak-style
 const styles = StyleSheet.create({
   container: {
     flex: 1,
