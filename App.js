@@ -1,14 +1,19 @@
 import React from 'react';
 import {
-  FlatList, View, Text, Button, StyleSheet
+  FlatList, View, Text, Button, StyleSheet,
 } from 'react-native';
 import { create } from 'react-test-renderer';
 
 export default function App() {
   const addEntry = () => {
-    const x = 123;
-    alert('Olá tudo bem?');
-    console.log(`Vamos lá: ${x}`);
+    // const x = 123;
+    // console.log(`Vamos lá: ${x}`);
+
+  };
+
+  const meuAlerta = () => {
+    const nome = 'Eder';
+    alert(`Olá ${nome} tudo bem?`);
   };
 
   return (
@@ -36,18 +41,18 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 24,
-    backgroundColor: "#eaeaea"
+    backgroundColor: '#eaeaea',
   },
   title: {
     marginTop: 16,
     paddingVertical: 8,
     borderWidth: 4,
-    borderColor: "#20232a",
+    borderColor: '#20232a',
     borderRadius: 6,
-    backgroundColor: "#61dafb",
-    color: "#20232a",
-    textAlign: "center",
+    backgroundColor: '#61dafb',
+    color: '#20232a',
+    textAlign: 'center',
     fontSize: 30,
-    fontWeight: "bold"
-  }
+    fontWeight: 'bold',
+  },
 });
